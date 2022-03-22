@@ -1,11 +1,9 @@
-import pedidos.Usuario;
+import creacion.Catalogo;
 
 public class App {
     public static void main(String[] args) {
 
-        Usuario usuario = new Usuario();
-
-        usuario.crearUsuario();
-
+    Catalogo catalogo = new Catalogo();
+    catalogo.catalogos();
     }
 }
