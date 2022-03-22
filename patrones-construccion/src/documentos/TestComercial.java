@@ -1,7 +1,8 @@
+package documentos;
 public class TestComercial  
 {  
-  public static void main(String[] args)  
-  {  
+
+   public void comercial(){
     // inicialización del comercial en el sistema  
     Comercial elComercial = Comercial.Instance();  
     elComercial.setNombre("Comercial Auto");  

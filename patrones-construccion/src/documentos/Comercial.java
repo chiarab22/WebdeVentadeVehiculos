@@ -1,3 +1,5 @@
+package documentos;
+
 public class Comercial  
 {  
   protected String nombre; 

@@ -1,3 +1,4 @@
+package documentos;
 public abstract class Documento  
 implements Cloneable 
 {  

@@ -1,3 +1,4 @@
+package documentos;
 import java.util.*;  
 public class DocumentacionEnBlanco extends Documentacion  
 {  
