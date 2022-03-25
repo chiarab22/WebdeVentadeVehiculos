@@ -1,4 +1,4 @@
-package papel.documentacion;
+package papel.documentos;
 public abstract class Documento  
 implements Cloneable 
 {  

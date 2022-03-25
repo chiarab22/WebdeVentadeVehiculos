@@ -1,4 +1,4 @@
-package papel.documentacion;
+package papel.documentos;
 
 public class SolicitudMatriculacion extends Documento  
 {  

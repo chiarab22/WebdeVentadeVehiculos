@@ -1,7 +1,6 @@
-package papel.documentacion;
+package papel.documentos;
 
-import java.util.*;
-import documentos.Documentacion;  
+import java.util.*; 
 public class DocumentacionCliente extends Documentacion  
 {  
     public DocumentacionCliente(String informacion)  

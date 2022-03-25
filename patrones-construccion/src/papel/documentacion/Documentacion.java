@@ -1,5 +1,16 @@
-package papel.documentos;
+package papel.documentacion;
 
+import java.util.*;  
+  
+public abstract class Documentacion  
+{  
+    protected List<String> contenido =  
+        new ArrayList<String>();  
+  
+    public abstract void agregaDocumento(String documento);  
+    public abstract void imprime();  
+}  
+  
 public class DocumentacionHtml extends Documentacion  
 {  
     public void agregaDocumento(String documento)  
@@ -14,4 +25,6 @@ public class DocumentacionHtml extends Documentacion
         for (String s: contenido)  
             System.out.println(s);  
     }  
-}  
+}
+
+

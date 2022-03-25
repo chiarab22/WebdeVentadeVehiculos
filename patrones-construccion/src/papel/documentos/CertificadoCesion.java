@@ -1,5 +1,4 @@
-package papel.documentacion;
-
+package papel.documentos;
 public class CertificadoCesion extends Documento  
 {  
   public void visualiza()  

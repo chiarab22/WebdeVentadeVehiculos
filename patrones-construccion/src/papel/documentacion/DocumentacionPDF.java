@@ -1,4 +1,4 @@
-package papel.documentos;
+package papel.documentacion;
 
 public class DocumentacionPdf extends Documentacion  
 {  

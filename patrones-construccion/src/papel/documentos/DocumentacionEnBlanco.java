@@ -1,5 +1,4 @@
-package papel.documentacion;
-import documentos.Documentacion;
+package papel.documentos;
 import java.util.*; 
 public class DocumentacionEnBlanco extends Documentacion  
 {  
