@@ -1,6 +1,8 @@
 import pedidos.Usuario;
 import creacion.Catalogo;
 import documentos.TestComercial;
+import papel.ClienteVehiculo;
+import papel.Usuario2;
 
 public class App {
     public static void main(String[] args) {
@@ -12,6 +14,10 @@ public class App {
         System.out.println();
         TestComercial testComercial = new TestComercial();
         testComercial.comercial();
+        ClienteVehiculo clienteVehiculo = new ClienteVehiculo();
+        clienteVehiculo.mostrar();
+        Usuario2 usuario2 = new Usuario2();
+        usuario2.mostrar();
 
     }
 }
