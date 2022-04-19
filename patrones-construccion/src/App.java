@@ -1,6 +1,6 @@
 import pedidos.Usuario;
 import creacion.Catalogo;
-import documentos.TestComercial;
+import creacion.documentos.TestComercial;
 
 public class App {
     public static void main(String[] args) {
